@@ -1,29 +1,4 @@
-AngularCalculation
-Web Page for Mathematical Calculations using Angular
-AIM:
-To design a dynamic website to perform mathematical calculations using Angular Framwork
 
-DESIGN STEPS:
-Step 1:
-Requirement collection.
-
-Step 2:
-Creating the layout using HTML and CSS in component.html file
-
-Step 3:
-Write typescript to perform the calculations.
-
-Step 4:
-Validate the layout in various browsers.
-
-Step 5:
-Validate the HTML code.
-
-Step 6:
-Publish the website in the given URL.
-
-PROGRAM :
-index.html:
 <!doctype html>
 <html lang="en">
 <head>
@@ -37,8 +12,7 @@ index.html:
   <app-root></app-root>
 </body>
 </html>
-
-parallel.component.ts:
+```
 import { Component } from '@angular/core';
 
 @Component({
@@ -60,7 +34,7 @@ export class ParallelogramComponent {
   }
 
 }
-parallel.component.html:
+```
 <div>
     Base:<input type="text" [(ngModel)]= "breadth">Meters<br/>
     <br/>
@@ -70,7 +44,7 @@ parallel.component.html:
     <br/>
     Area:<input type="text" readonly value="0" [value]= "area">Meter<sup>2</sup>
 </div>
-
+```
 cuboid.component.ts:
 import { Component } from '@angular/core';
 
@@ -96,7 +70,7 @@ export class CuboidComponent{
 
 }
 
-cuboid.component.html:
+```
 <div>
     Length:<input type="text" [(ngModel)]= "clength">Meters<br/>
     <br/>
@@ -193,18 +167,9 @@ font-size: large;
       <Cuboid-Volume class="formelement"></Cuboid-Volume>
   </div>
   <div class="footer">
-    &copy; Copyright. All Rights Reserved | Developed by  Vidyaneela.M
+    &copy; Copyright. All Rights Reserved | Developed by Kaushika.A
   </div>
   </div>
 
 </body>
-OUTPUT:
-Blank Page:
-![](./output1.jpg)
-
-Page with Calculated Result:
-![](./output.jpg)
-
-
-Result:
-Thus a Mathmetical Calculation website is created using Angular.
+.
