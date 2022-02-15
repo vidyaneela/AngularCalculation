@@ -1,29 +1,29 @@
-AngularCalculation
-Web Page for Mathematical Calculations using Angular
-AIM:
+# AngularCalculation
+## Web Page for Mathematical Calculations using Angular
+## AIM:
 To design a dynamic website to perform mathematical calculations using Angular Framwork
 
-DESIGN STEPS:
-Step 1:
+## DESIGN STEPS:
+### Step 1:
 Requirement collection.
 
-Step 2:
+### Step 2:
 Creating the layout using HTML and CSS in component.html file
 
-Step 3:
+### Step 3:
 Write typescript to perform the calculations.
 
-Step 4:
+### Step 4:
 Validate the layout in various browsers.
 
-Step 5:
+### Step 5:
 Validate the HTML code.
 
-Step 6:
+### Step 6:
 Publish the website in the given URL.
 
-PROGRAM :
-index.html:
+## PROGRAM :
+#### index.html:
 <!doctype html>
 <html lang="en">
 <head>
@@ -38,7 +38,7 @@ index.html:
 </body>
 </html>
 
-parallel.component.ts:
+#### parallel.component.ts:
 import { Component } from '@angular/core';
 
 @Component({
@@ -60,7 +60,7 @@ export class ParallelogramComponent {
   }
 
 }
-parallel.component.html:
+#### parallel.component.html:
 <div>
     Base:<input type="text" [(ngModel)]= "breadth">Meters<br/>
     <br/>
@@ -71,7 +71,7 @@ parallel.component.html:
     Area:<input type="text" readonly value="0" [value]= "area">Meter<sup>2</sup>
 </div>
 
-cuboid.component.ts:
+#### cuboid.component.ts:
 import { Component } from '@angular/core';
 
 @Component({
@@ -96,7 +96,7 @@ export class CuboidComponent{
 
 }
 
-cuboid.component.html:
+#### cuboid.component.html:
 <div>
     Length:<input type="text" [(ngModel)]= "clength">Meters<br/>
     <br/>
@@ -198,13 +198,14 @@ font-size: large;
   </div>
 
 </body>
-OUTPUT:
-Blank Page:
+
+## OUTPUT:
+### Blank Page:
 ![](./output1.jpg)
 
-Page with Calculated Result:
+### Page with Calculated Result:
 ![](./output.jpg)
 
 
-Result:
+## Result:
 Thus a Mathmetical Calculation website is created using Angular.
