@@ -23,6 +23,7 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM :
+```
 #### index.html:
 <!doctype html>
 <html lang="en">
@@ -198,6 +199,7 @@ font-size: large;
   </div>
 
 </body>
+```
 
 ## OUTPUT:
 ### Blank Page:
